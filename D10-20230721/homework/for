@@ -1,0 +1,5 @@
+subjects=["tamil","maths","english","science","social"]
+total_marks=500
+for marks in subjects:
+    if marks>=450:
+        Print("maths bilogy")

@@ -1,0 +1,68 @@
+my_resume={
+        "Name":"AJAY.H",
+        "Email":"ajayhb2c@gmail.com",
+        "Mobile_No":"9047719688",
+        "Soft_Skills":["listening_skills","leadership"],
+        "Hard_Skills":["programming","design"],
+        "Educational_qualification":
+          [
+            {
+                "Course":"ELECRTONICS_AND_COMMUNICATION_ENGINEERING",
+                "Yearofpassing":2019,
+                "Percentage":62.4,
+            },
+            { 
+                "Course":"SSC",
+                "Yearofpassing":2015,
+                "Percentage":72,
+            },
+            { 
+                "COURSE":"SSLC",
+                "Yearofpassing":2013,
+                "percentage":67,
+            }
+          ],
+        "Projects":
+          [
+            {
+                "Finalyear_project":"Iot_based_irrigation_system"
+            },
+            
+            {
+                "Mini_project":"Development_of_IOT_enabled_multipurpose_rover_for_emergency_purpose"
+            }
+
+          ],
+        "Experience":
+           [
+             {
+                "campanyname":"b2c teachnologies",
+                "yearsofworking":2020_2023,
+                "position":"process_asscociate",
+             }
+           ],
+        "Hobbies":["movies","sports","photoshot"],
+        "Personal_details":
+           [
+            {
+              "Fathers_name":"Hariram",
+              "Father's_occupation":"coolie",
+              "Language_known":["english","tamil"],
+              "date_of_birth":17/6/1998,
+              "gender":"male",
+              "martial_status":"unmarried",
+              "address":
+               [
+                     {
+                        "door_number":14/87,
+                        "street":"kovilstreet",
+                        "place":"agastesswaram",
+                        "district":"kanyakumari",
+                        "pincode":629701,
+                        }
+               ]
+
+            }
+           ]
+    }
+print(my_resume)
