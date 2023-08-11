@@ -1,0 +1,18 @@
+#'''Write a function that takes a list of integers as input and returns
+#the largest difference between two Subsequent elements in the list'''
+
+nums_list = [2, 5, 8, 1, 9, 3, 7]
+min_value=nums_list[0]
+max_value=nums_list[0]
+for i in nums_list:
+    if i<min_value:
+        min_value=i
+    elif i>max_value:
+        max_value=i
+output=max_value-min_value
+print(output,max_value,"-",min_value)
+
+#method2
+print(min(nums_list))
+print(max(nums_list))
+
