@@ -1,0 +1,39 @@
+.top{
+    width: 100%;
+    background-color: rgb(114, 117, 116);
+
+}
+.logo{
+    width:0%;
+    display: inline-block;
+    
+
+}
+.campanyname{
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 1112px;
+    margin-top: 32px;
+    
+}
+.section{
+    width: 100%;
+}
+.section1{
+    width: 100%;
+}
+.img{
+    display: inline-block;
+    width:40%;
+    margin: 5% 7% 0px 10%;
+
+}
+.name{
+    display:inline-block;
+    vertical-align: top;
+    width:38%;
+    color:brown;
+    margin-right: 2px;
+    
+
+}
