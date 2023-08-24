@@ -1,0 +1,61 @@
+header{
+    width:100%;
+    border:0px solid light rgb(225, 225, 231);
+    background-color: lightblue;
+    text-align: center;
+    
+}
+nav{
+    width:100%;
+    border:0px solid rgb(226, 231, 233);
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px 0;
+}
+nav link{
+    text-align: center;
+    text-decoration-line: 2px;
+}
+section{
+    width:100%;
+    background-color: lightblue;
+    text-align: center;
+    height:20%;
+}
+.column{
+    width: 100%;
+}
+.column-one{
+    display: inline-block;
+    width:32%;
+    height:30%;
+    border: 1px solid rgb(0, 0, 0);
+    margin-right: 20px;
+    margin-top:10px;
+    background-color:lightblue ;
+}
+.column-second{
+    display: inline-block;
+    width:32%;
+    height:30%;
+    border:2px solid rgb(0, 0, 0);
+    margin-right: 20px;
+    background-color: lightblue;
+    
+}
+ .column-third{
+    display:inline-block;
+    width:32%;
+    height: 30.7%;
+    border:1px solid rgb(10, 2, 2);
+    background-color: lightblue;
+    
+} 
+footer{
+    width:100%;
+    height:20%;
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+}
