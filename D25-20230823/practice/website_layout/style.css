@@ -1,6 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .top{
     width: 100%;
-    background-color:rgb(204, 60, 84);
+    background-color: rgb(166, 121, 211);
 
 }
 .logo{
@@ -32,44 +36,70 @@
     display:inline-block;
     vertical-align: top;
     width:38%;
-    color:brown;
-    
-    margin-right: 2px;
+    background-color: rgb(166, 121, 211);
+    margin-top: 75px;
+    margin-right: 60px;
     
 
+}
+.name h1{
+    font-size: 50px;
+    color:solid violet;
+}
+.name p{
+    margin-top:20px ;
+    margin-bottom: 10x;
 }
 .name button{
     color: brown;
     width:25%;
     margin-left: 35%;
     border-radius: 12px;
-    background-color: pink;
+    background-color: rgb(166, 121, 211);
 }
 .section2{
-    wdidth: 100px;
+    /* width: 100px; */
+    vertical-align: top;
 }
 .stacks{
     width:100%;
     height: 20%;
     text-align: center;
-    border:1px solid grey;
-    background-color:rgb(180, 50, 72);
+    margin-top: 50px;
+    background-color: rgb(166, 121, 211);
 }
 .section3{
     width: 100%;
 }
 .photos{
-    display: inline-block;
+    margin margin-top: 50px;
     
     
 }
-.photos-web{
-    display: inline-block;
+.photos img{
+    width: 100px;
+    margin: 0px 100px;
+}
+
+.photos-web img{
+    width: 100px;
+    margin:0px 100px;
 }
 footer{
-    width: 100%;
-    height: 15%;
-    border: 1px;
-    background-color:rgb(204, 60, 84);
+    padding: 0px 20px;
+    background-color: rgb(166, 121, 211);
 
+}
+.foot-left{
+
+
+display: inline-block;
+width: 20%;
+}
+.foot-right{
+display: inline-block;
+width: 78%;
+height: 15%;
+text-align: right;
+vertical-align: top;
 }
