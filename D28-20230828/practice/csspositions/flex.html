@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+            section{
+                display: flex;
+                
+                border: 1px solid brown;
+            }
+            /* .box{ */
+                /* width:100%;
+                height: 100%;
+            } */
+            .maindiv{
+                display: flex;
+                height:600px;
+                width:600px;
+                background-color: black;
+                border: 1px solid blue;
+              /* justify-content: center;
+                align-items: center;  */
+                align-self: center;
+                
+            }
+            .subdiv{
+              
+                /* padding: 10px; */
+                background-color: aqua;
+                border: 1px solid black;
+                align-self: center;
+                width: 400px;;
+                height: 160px;
+                
+            }
+        
+        </style>
+    </head>
+
+<body>
+    <section>
+        <h1>flex</h1>
+        <div class="box">
+        <div class="maindiv">
+            <div class="subdiv">1</div>
+            <div class="subdiv">2</div>
+            <div class="subdiv">3</div>
+        </div>
+    </div>
+    </section>
+</body></html>

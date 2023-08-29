@@ -1,0 +1,15 @@
+header{
+    width:100%;
+    background-color: rgb(190, 33, 60);
+    height:10%;
+    position: fixed;
+    top:0;
+    text-align: center;
+    padding: 50px;
+    font-size: larger
+}
+
+section{
+    flex: 1;
+    background-color: aqua;
+}

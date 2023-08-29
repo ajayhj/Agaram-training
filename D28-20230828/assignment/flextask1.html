@@ -1,0 +1,92 @@
+<!-- <html>
+    <head>
+        <title>webpage-postions</title>
+        <link rel="stylesheet" href="flextask1.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>header</h1>
+        </header>
+        <section>
+            <div class="left">
+                <h1>Aside</h1>
+            </div>
+            <div class="right">
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <div class="box3"></div>
+            </div>
+        </section>
+
+    </body>
+</html> -->
+<head>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            background-color: palevioletred;
+            height: 100%;
+            overflow: hidden;
+        }
+        .header{
+            width: 92%;
+            padding: 2%;
+            margin: 2%;
+            text-align: center;
+            background-color: rgb(62, 204, 204);  
+        }
+        .aside{
+            width: 30%;
+            text-align: center;
+            padding-top: 9%;
+            padding-bottom: 9%;
+            background-color: rgb(64, 199, 199);
+            margin-left: 2%;
+        }
+        section{
+            display: flex;
+        }
+        .article{
+            width: 64%;
+            text-align: center;
+            padding-top: 9%;
+            padding-bottom: 9%;
+            background-color: rgb(199, 64, 82);
+            margin-left: 2%;
+            display: flex;
+            align-items:bottom;
+            justify-content: bottom;
+        }
+        .article img{
+            width:30%;
+            padding: 3px;
+        }
+        /* .image{
+            width: 24%;
+            text-align: center;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            
+            margin-left: 2%;
+           
+        } */
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="header"><header>Header</header></div>
+        <section>
+            <div class="aside"><aside>Aside</aside></div>
+        <div class="article"><article>Article</article>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi_6WHQspoA7ioAG16Jn2HK8z_OwP_tXLhCbQiCk2X&s" >
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi_6WHQspoA7ioAG16Jn2HK8z_OwP_tXLhCbQiCk2X&s" >
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi_6WHQspoA7ioAG16Jn2HK8z_OwP_tXLhCbQiCk2X&s" >
+        </div>
+        </section>
+        <div class="header"><footer>Footer</footer>
+    </div>
+</body>
+</html>
