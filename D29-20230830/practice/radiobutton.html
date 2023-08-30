@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>radio button</title>
+    </head>
+    <body>
+    
+        <input type="radio" name="gender"   value ="male"><label>male</label>
+        <input type="radio" name="gender"   value ="female"><label>female</label>
+        <input type="radio" name="gender"   value ="others"><label>others</label>
+        <button onclick=getvalue()>click</button>
+        <script>
+            function  getvalue(){
+            var ele=document.getElementByname("gender").value
+
+            console(ele.length)
+            }
+        </script>
+    </body>
+</html>

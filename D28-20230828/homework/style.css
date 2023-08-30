@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-image: url("img/OLO2DM0.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: center;
+
+
+}
+.login-wrapper{
+    width: 30%;
+    background-color: rgba(81, 23, 23, 0.697);
+    /* height: 60vh; */
+    padding: 40px;
+    border-radius: 20px;
+    /* text-align: center; */
+
+}
+form{
+    /* border: 1px solid rgb(5, 5, 5); */
+    /* text-align: center; */
+    
+}
+form h3{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.button-div{
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    /* justify-content: space-between; */
+}
+.button-div button{
+    height: 40px;
+    width: 140px;
+    color: white;
+    background-color: rgb(106, 32, 32);
+    border: none;
+}
+.button-div .facebook{
+    margin-left: 18.4px;
+}
+.or{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+
+}
+label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+input{
+    background-color: rgb(210, 210, 210);
+    /* border-radius: 10px; */
+    height: 40px;
+    width: 100%;
+}
+.log{
+    margin-top: 25px;
+    width: 150px;
+    padding: 5px 0px;
+    text-align: center;
+    border: 1px solid rgb(255, 5, 5);
+    margin-bottom: 20px;
+    margin-left: 75px;
+    border-radius: 20px;
+    background-color: rgb(255, 185, 114);
+    border: none;
+    
+
+}
+.log:hover{
+    background-color: rgb(75, 45, 61);
+    color: white;
+
+}
+.form-sign{
+    font-size: 18px;
+    color: white;
+
+}
