@@ -1,0 +1,21 @@
+.details{
+    background-color: black;
+    color: white;
+    padding: 0.5%;
+}
+.completed{
+    display: inline-block;
+    vertical-align: top;
+}
+.college{
+    display: inline-block;
+    margin-left: 15%;
+}
+.year{
+    display: inline-block;
+    vertical-align: top;
+}
+.school{
+    display: inline-block;
+    margin-left: 18.8%;
+}

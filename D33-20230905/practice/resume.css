@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(128, 123, 123);
+}
+.header hr{
+    border: 1px solid black;
+}
+ .header h1{
+    width:100%;
+    height: 10%;
+    text-align: center;
+    padding: 0px;
+    
+
+}
+.header h3{
+    text-align: center;
+}
+.header h4{
+    text-align: left;
+    /* margin-right: 150px;
+    margin-left:10px ; */
+}
+
+.objective{
+    width:100%;
+    height:20%;
+    /* margin:20px; */
+
+}
+.objective p{
+    font-size: large;
+    font-weight: 100;
+}
+.full{
+    margin-left: 30px;
+
+}
+.experience{
+    margin
+}
