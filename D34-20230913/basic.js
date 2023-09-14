@@ -37,7 +37,7 @@
         { 
             course:"SSLC",
             institute_name:"govt school agasteeswaram",
-            Yearofpassing:2013,
+            yearofpassing:2013,
             percentage:67,
             place:"agasteeswaram",
         }
@@ -168,12 +168,15 @@ for (var i=0;i<a.length;i++){
 //ist la iruka object name veliya eduka
 
 
-let c=[{name:"suresh",place:"nagercoil"}]
-for (var i=0;i<c.length;i++){
-    console.log(c[i].name)
-    console.log(c[i].place)
+// let c=[{name:"suresh",place:"nagercoil"}]
+// for (var i=0;i<c.length;i++){
+//     console.log(c[i].name)
+//     console.log(c[i].place)
+// }
+
+function getmark(m){
+ for (i=0;i<m.length;i++){
+  console.log(i+1,m[i].yearofpassing)
+ }
 }
-function getmark(a){
- for (i=0;i<a.length;i++)
-}
-getmark(educational_qualification)
+getmark(my_resume.educational_qualification)
