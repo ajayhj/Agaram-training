@@ -28,7 +28,7 @@
             place:"chunkankadai",
         },
         { 
-            course:"SSC",
+            course:"HSLC",
             institute_name:"govt school agasteeswaram",
             yearofpassing:2015,
             percentage:72,
@@ -174,9 +174,35 @@ for (var i=0;i<a.length;i++){
 //     console.log(c[i].place)
 // }
 
-function getmark(m){
- for (i=0;i<m.length;i++){
-  console.log(i+1,m[i].yearofpassing)
- }
-}
-getmark(my_resume.educational_qualification)
+// function getmark(m){
+//  for (i=0;i<m.length;i++){
+//   console.log(i+1,m[i].course)
+//  }
+// }
+// getmark(my_resume.educational_qualification)
+
+// function getmark(m){
+//   for(i=m.length-1;i>=0;i--){
+//     console.log(m[i].course)
+//   }
+// }
+// getmark(my_resume.educational_qualification)
+
+localStorage.setItem("name",true);
+
+console.log(typeof(localStorage.getItem("name")))
+
+
+var list=["a","b","c"]
+// str a object a convert pana json.stringyfy
+var valuelist=JSON.stringify(list);
+localStorage.setItem("name",valuelist);
+// console.log(localStorage.getItem("name",valuelist))
+var list_1=localStorage.getItem("k")
+// object a list matha json.parse
+var clist=JSON.parse(list_1);
+console.log(list[1])
+
+
+
+

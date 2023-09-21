@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+    <link rel="stylesheet" href="loginpage.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+</head>
+<body>
+     <div id="home">
+        <p id="welcome">welcome ! <input onclick="tableof()"></p> 
+        <input type="button" onclick="logout()"  value="logout">
+
+        <div id="table">
+            <!-- <input type="button" onclick="tableof()" value="table"> -->
+            <table border="1" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+            <th>name</th>
+            <th>mail</th>
+            <th>update</th>
+            <th>delete</th>
+            </tr>
+        </thead>
+        <tbody id="list-table">
+            <!-- <tr>
+                <td><p></p></td>
+                <td></td>
+                <td><i class="material-icons">edit</i></td>
+                <td><i class="material-icons">delete</i></td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td><i class="material-icons">edit</i></td>
+                <td><i class="material-icons">delete</i></td>
+            </tr>
+            <tr>
+            <td></td>
+            <td></td>
+            <td><i class="material-icons">edit</i></td>
+            <td><i class="material-icons">delete</i></td>
+            </tr> -->
+        </tbody>
+            </table>
+        </div>
+     </div>
+     <div id="register">
+        <form action="">
+            <h1>Register Form</h1>
+            <label>Name<input type="text" id="username"></label></br><br>
+            <label>Email<input type="email" id="useremail"></label></br><br>
+            <label>password <input type="password" id="userpassword"></label></br><br>
+            <input type="button" onclick="registerform()" value="Register">
+        </form>
+    </div>
+    <div id="loginform">
+    <form>
+        
+        <h1>login page</h1>
+        <label>Email<input type="email" id="user"></label></br><br>
+        <label>password<input type="password" id="pass"></label></br><br>
+        <input type="button" onclick="loginform()" value="submit">
+        <!-- <input type="button" value="register"> -->
+        <input type="button" onclick="regpage()" value="Register">
+
+        
+    </form>
+    
+    <script src="loginpage.js" type="text/Javascript"></script>
+</body>
+</html>
