@@ -8,32 +8,12 @@
     <script src="registerform.js" text="text/javascript"></script>
 </head>
 <body>
-    <div id="top">
-    <h1 style="display: inline-block;" id="intro">Welcome </h1>
-    <input type="button" value="Logout" onclick="logout()">
-    </div>
-    <div id="register">
-            <form action="">
-                <label for="">Name </label><input type="text" id="name"><br>
-                <label for="">Email </label><input type="email" id="email"><br>
-                <label for="">password </label><input type="password" id="password"><br>
-                <!-- <label for="">confirm password </label><input type="password" id="c_password"><br><br> -->
-                <button type="button" id="button" onclick="register()">register</button>
-            </form>
+    <div id="home">
+         <p id="welcome"></p>
     </div>
     <div id="login">
-    <form action="">
-    <label>Email : </label>
-    <input type="email" placeholder="E-Mail ID" id="email"><br><br>
-    <label>Password : </label>
-    <input type="password" placeholder="Password" id="password"><br><br>
-    <input type="button" value="Login" onclick="loginCheck()">
-    <button type="button" id="button" onclick="regpage()">Register</button>
-            
-    </form>
-
-</div>
-
-<!-- <script>loging()</script> -->
-</body>
-</html>
+        <form>
+        <label>Email<input type="email" placeholder="please enter email"></label>
+        <label>password<input type="password" placeholder="please enter password"></label>
+        <label><input type="button" value="submit"></label>
+    </div>

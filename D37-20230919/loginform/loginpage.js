@@ -123,16 +123,34 @@ function deleteitem(l){
     }
     let obj=JSON.stringify(newdata)
     localStorage.setItem("username",obj)
-    tableof()
+tableof();
 }
 deleteitem()
 
-function updateof(mail){
-    let b=JSON.parse(localStorage.getItem("username"))
-    let newdatas=[]
-    for (let i=0;i<b.length;i++){
-        if(b[i].email==mail){
-            
-        }
-    }
-}
+// function updateof(mail){
+//     let b=JSON.parse(localStorage.getItem("username"))
+//     let newdatas=[]
+//     for (let i=0;i<b.length;i++){
+//         if(b[i].email==mail){
+//             let updatename=prompt(name,${b[i].name})
+//             let updatemail=prompt(mail,${b[i].email})
+//             console.log(updatename)
+//             if (updatename != b[i].name) {
+//                 document.getElementById(newname+'${i}').innerHTML = updatename;
+//                 console.log(updatename)               
+//            }
+//             if(updatemail != b[i].email) {
+//                 document.getElementById(newemail+'${i}').innerHTML = updatemail;
+//                 console.log(updatemail)
+//                     }
+//                     console.log(b[i].password)
+//             b[i]=({
+//                 email: updatemail,
+//                 password:b[i].password,
+//                 name: updatename
+//             })
+// }
+// }localStorage.setItem("username",JSON.stringify(b))
+// console.log(b)
+// }
+// updateof()
