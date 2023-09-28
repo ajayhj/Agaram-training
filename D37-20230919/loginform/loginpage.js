@@ -105,7 +105,7 @@ let det=JSON.stringify(listof)
     <tr>
         <td>${deta[i].name}</td>
         <td>${deta[i].email}</td>
-        <td><button onclick="updateof('${deta[i].email}')">update</button></td>
+        <td><button onclick="update('${deta[i].email}')">update</button></td>
        <td><button onclick="deleteitem('${deta[i].email}')">delete</button></td>
     </tr>`
 }
@@ -127,30 +127,33 @@ tableof();
 }
 deleteitem()
 
-// function updateof(mail){
-//     let b=JSON.parse(localStorage.getItem("username"))
-//     let newdatas=[]
-//     for (let i=0;i<b.length;i++){
-//         if(b[i].email==mail){
-//             let updatename=prompt(name,${b[i].name})
-//             let updatemail=prompt(mail,${b[i].email})
-//             console.log(updatename)
-//             if (updatename != b[i].name) {
-//                 document.getElementById(newname+'${i}').innerHTML = updatename;
-//                 console.log(updatename)               
-//            }
-//             if(updatemail != b[i].email) {
-//                 document.getElementById(newemail+'${i}').innerHTML = updatemail;
-//                 console.log(updatemail)
-//                     }
-//                     console.log(b[i].password)
-//             b[i]=({
-//                 email: updatemail,
-//                 password:b[i].password,
-//                 name: updatename
-//             })
-// }
-// }localStorage.setItem("username",JSON.stringify(b))
-// console.log(b)
-// }
-// updateof()
+
+function update(mail){
+    let u=JSON.parse(localStorage.getItem("usernamme"))
+    console.log(u)
+    newedit=[]
+    // alert(mail)
+    for (i=0;i<u.length;i++){
+        if (u[i].email===mail){
+            let pname =prompt(name,u[i].name)
+            let pmail =prompt(email,u[i].email)
+            console.log(pname)
+            if (pname != u[i].name) {
+                document.getElementById(newname+'${i}').innerHTML = pname;
+                console.log(pname)                           
+           }
+            if(pmail != u[i].email) {
+                document.getElementById(newemail+'${i}').innerHTML = pmail;
+                console.log(pmail)
+                    }console.log(u[i].password)
+            b[i]=({
+                email: pmail,
+                password:u[i].password,
+                name: pname
+            })
+}
+}localStorage.setItem("username",JSON.stringify(u))
+console.log(u)
+}
+
+update()

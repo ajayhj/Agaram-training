@@ -1,14 +1,14 @@
 function loginform(){
     let login_email=document.getElementById("user").value;
     let login_password=document.getElementById("pass").value;
-   // alert(login_email)
-   // alert(login_password)
+//    // alert(login_email)
+//    // alert(login_password)
    let val=localStorage.getItem("username")
    let vale=JSON.parse(val);                                                    
    console.log(vale)
    for (i=0;i<vale.length;i++){
        console.log(i)
-       // console.log(vale[i].name)
+//        // console.log(vale[i].name)
      if ((login_email==vale[i].email) &&(login_password==vale[i].password)) {
    
        alert("log in sucessfully")
@@ -21,7 +21,7 @@ function loginform(){
        
        
    //  ~
-   // document.getElementById("loginform").style.display="none"
+   // //document.getElementById("loginform").style.display="none"
       } 
 
    }
@@ -31,11 +31,11 @@ function loginform(){
 
 function logout(){
     window.location="login.html"
-// document.getElementById("loginform").style.display="block"
-// document.getElementById("home").style.display="none"
+// // document.getElementById("loginform").style.display="block"
+// //document.getElementById("home").style.display="none"
 }
 
-// register form
+register form
 function registerform(){
 
 
@@ -44,10 +44,10 @@ let reg_name=document.getElementById("username").value;
 let reg_email=document.getElementById("useremail").value;
 let reg_password=document.getElementById("userpassword").value;
 
-// let localdata=localStorage.getItem("list")
-//let parselocaldata=JSON.parse(localdata)
-// parselocaldata.push({name:reg_name,email:reg_email,password:reg_password})
-// localStorage.setItem("list",parselocaldata)
+//// let localdata=localStorage.getItem("list")
+// //let parselocaldata=JSON.parse(localdata)
+//  //parselocaldata.push({name:reg_name,email:reg_email,password:reg_password})
+// // localStorage.setItem("list",parselocaldata)
 if (localStorage.getItem("username")){
      parsedata =JSON.parse(localStorage.getItem("username"))
 }
@@ -61,21 +61,20 @@ localStorage.setItem("username",JSON.stringify(parsedata));
 tableof();
 }
 
-// function regpage(){
+function regpage(){
  
-//     document.getElementById(loginform).style.display="none"
-//     document.getElementById(registerform).style.display="block"
-// }
+//  / /  document.getElementById(loginform).style.display="none"
+//  / /  document.getElementById(registerform).style.display="block"
+}
 
 function regpage(){
     window.location="register.html"
-    // document.getElementById("register").style.display="block"
-    // document.getElementById("loginform").style.display="none"
+   
 }
 
 
 
-// let listof=localStorage.getItem("username")
+let listof=localStorage.getItem("username")
 function tableof(){
     
     let listof=localStorage.getItem("username")

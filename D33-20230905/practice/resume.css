@@ -3,7 +3,7 @@
     padding:0;
 }
 body{
-    background-color: rgb(243, 235, 231);
+    background-color: rgb(247, 227, 222);
 }
 .full{
     margin-left: 10px;
@@ -14,8 +14,9 @@ body{
 }
 .header{
     background-color: black;
+    height: 30%;
     margin:10px 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     color: rgb(194, 175, 175);
 
 }
@@ -25,8 +26,9 @@ body{
 /* } */
  .header h1{
     /* width:100%; */
-     height: 10%; 
+     height: 5%; 
     text-align: center;
+     padding-bottom: 1%; 
     color: rgb(185, 18, 18);
 }
 .header h3{
@@ -34,9 +36,14 @@ body{
 }
 .header h4{
     text-align: left;
-
+    margin-left: 10px;
+    padding: auto;
+    
 }
 
+/* .objective{
+    background-color: solid rgb(168, 163, 163);
+} */
 .objective h3{
     /* width:100%;
     height:20%;
