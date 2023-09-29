@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: sticky;
+    top:0;
+}
+h1{
+    background-color: rgb(196, 196, 231);
+    /* position: sticky; */
+    /* top:0; */
+    width:100%;
+    text-align: center;
+}
+/* p{
+    margin: auto 43%;
+}
+h3{
+   position:fixed;
+   background-color: tomato;
+   margin: auto 43%;
+   top:100px;
+   
+} */
+nav{
+    position: relative;
+    bottom: 0;
+
+}
+h2{
+    position:absolute;
+    color: aqua;
+}
+img{
+    width:50%;
+    position:relative;
+
+}
+.content{
+    position: absolute;
+    top:59
+}
+

@@ -1,0 +1,30 @@
+div{
+    width: 500px;
+    height:500px;
+    background-color: red;
+    border:1px solid black;
+    margin: 10px;
+    padding: 50px;
+}
+body{
+    background-color: blue;
+}
+p{
+    /* margin: 25px; */
+    background-color: grey;
+    
+}
+ul{
+    border: 1px solid green;
+    position:absolute;
+    top:0;
+    left:0;
+}
+li {
+   display: inline-block;
+   border: 1px solid black;
+   padding: 10px;
+}
+/* /postion ex */
+.main{
+     position: relative;}
