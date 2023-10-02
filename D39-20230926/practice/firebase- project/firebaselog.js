@@ -110,8 +110,9 @@ document.getElementById("list-table").innerHTML=tabledata;
 // displaydata()
 getdata()
 
-//  function deletedata(){
+function deletedata(){
 
-//      dataRef.once("value").then(function(){
-   
-//      }}
+      dataRef.once("value").then(function(){
+      alert(delete)
+      }
+    )}

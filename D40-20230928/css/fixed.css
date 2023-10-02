@@ -3,8 +3,8 @@
     padding: 0;
 }
 .header{
-    position: sticky;
-    top:0;
+    position: fixed;
+    top:100px;
 }
 h1{
     background-color: rgb(196, 196, 231);
@@ -13,7 +13,7 @@ h1{
     width:100%;
     text-align: center;
 }
-/* p{
+p{
     margin: auto 43%;
 }
 h3{
@@ -22,7 +22,7 @@ h3{
    margin: auto 43%;
    top:100px;
    
-} */
+} 
 nav{
     position: relative;
     bottom: 0;
@@ -32,13 +32,18 @@ h2{
     position:absolute;
     color: aqua;
 }
-img{
+.img{
     width:50%;
     position:relative;
 
 }
+img{
+    position: absolute;
+    /* color:aqua; */
+}
 .content{
     position: absolute;
-    top:59
+    top:59;
+    color:aqua;
 }
 
