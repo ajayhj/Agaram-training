@@ -12,7 +12,7 @@ let outscreen = document.getElementById("outputscreen");
             alert("invalid")
         }
     }
-    function clear(){
+    function clr(){
         outscreen.value="";
     }
 
