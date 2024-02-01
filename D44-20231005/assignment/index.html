@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="resume_builder.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Resume Builder</h2>
+            <form>
+                <div class="row-2">
+                  <label class="col-2"><h5>NAME</h5></label>
+                  <div class="col-10">
+                        <input type="text" class="form-control" value="" name="name" onkeyup="val(this)">
+                  </div>
+                </div>
+                <div class="row-3">
+                    <label class="col-2 col-form-label"><h5>EMAIL</h5></label>
+                    <div class="col-10">
+                          <input type="email" class="form-control" value="" name="email" onkeyup="val(this)">
+                    </div>
+                </div>
+                <div class="row-3">
+                    <label class="col-2 col-form-label"><h5>Mobile Num</h5></label>
+                    <div class="col-10">
+                          <input type="number" class="form-control" value="" name="mob_num" onkeyup="val(this)">
+                    </div>
+                </div>
+                <div class="row-3">
+                    <label class="col-2 col-form-label"><h5>Personal Details</h5></label>
+                    <div class="col-10">
+                        <label>Fathername
+                          <input type="text" class="form-control" value="" name="father_name" onkeyup="val(this,'personal_detail')">
+                        </label>
+                        <label>Mothername
+                            <input type="text" class="form-control" value="" name="mother_name" onkeyup="val(this,'personal_detail')">
+                        </label>
+                    </div>
+                </div> 
+                <br>
+                <div class="row-3">
+                    <label class="col-2 col-form-label"><h5>skills</h5></label>
+                    <div class="col-4">
+                        <input type="text" class="form-control" id="skill_list">
+                    </div>
+                    <div class="row-3">
+                        <button type="button" class="btn btn-success" onclick="add_skill('skills','skill_list','skill_tbl')">Add</button>
+                    </div>
+                    <div id="skill_tbl">
+                        <li>
+                            
+                        </li>
+                    </div>
+                    <div class="row-3">
+                        <label class="col-2 col-form-label"><h5>Languages Known</h5></label>
+                        <div class="col-4">
+                            <input type="text" class="form-control" id="lang_list">
+                        </div>
+                        <div class="row-3">
+                            <button type="button" class="btn btn-success" onclick="add_skill('Languages','lang_list','lang_tbl')">Add</button>
+                        </div>
+                    </div>
+                    <div id="lang_tbl">
+                        <li>
+                            
+                        </li>
+                    </div>
+                    <h3>Educational Details</h3>
+                    <div class="mb-3 row" id="ele">
+                        <div class="col-2">
+                            <input type="text" id="ins_name" class="form-control" name="ins_name" placeholder="Institute Name" onkeyup="get_info(this)">
+                         </div>
+                         <div class="col-2">
+                            <input type="text" id="level" class="form-control" name="level" placeholder="Level" onkeyup="get_info(this)">
+                         </div>
+                         <div class="col-2">
+                            <input type="text" id="year" class="form-control" name="year" placeholder="Year" onkeyup="get_info(this)">
+                         </div>
+<div class="col-2">
+                            <input type="text" id="percentage" class="form-control" name="percentage" placeholder="Percentage" onkeyup="get_info(this)">
+                         </div>
+                         <div class="col-3">
+                            <button type="button" class="btn btn-success" onclick="add_skill(null,null,null,'educational_details')">ADD</button>
+                         </div>
+                    </div>
+                </form>   
+                <div class="row">
+                    <div class="alert alert-primary" ><code><pre id="dispaly_items"></pre></code></div>
+                </div>
+            </form>
+        </div>
+    </body>
+    <script src="resume_builder.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

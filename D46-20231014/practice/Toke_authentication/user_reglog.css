@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 161, 116); 
+    /* background-image: url("bac.jpg");
+    height: 100%;
+    width:100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+    
+}
+form{
+    width: 40%;
+    border: 2px solid black;
+    background-color: rgb(225, 228, 231);
+    display: inline-block;
+     padding:80px;
+    border-radius: 40px;
+    margin: 5%;
+    /* background-color: white; */
+    
+} 
+.button{
+    background-color:rgb(65, 161, 116);
+    border-radius:10px;
+    width:100px;
+}

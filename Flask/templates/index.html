@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul >
+        {% for item in name_list %}
+            <li><a href="/user/{{item}}">{{item}}</a></li>
+        {% endfor %}
+        </ul>
+    
+
+    <h1>hi{{name}}</h1>
+    {%if name=="a" %}
+    <h1>welcome</h1>
+    {%else %}
+    <h1>logout</h1>
+    {%endif %} 
+</body>
+</html>

@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>firebase-Authentication-log</title>
-    <link rel="stylesheet" href="firebaselogreg.css">
+    <link rel="stylesheet" href="fireauth.css">
     <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
-    
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
 </head>
 <body>
     <form id="loginform">
         
         <h1>login page</h1>
-        <label>Email<input type="email" id="Email" placeholder="enter your email"></label></br><br>
-        <label>password<input type="password" id="password" placeholder="enter your password"></label></br><br>
-        <input type="button" onclick="login()" value="submit">
-        <input type="button" onclick="registerpage()" value="Register">
+        <label>Email<input type="email" id="emails" placeholder="enter your email"></label></br><br>
+        <label>password<input type="password" id="passwords" placeholder="enter your password"></label></br><br>
+        <input type="button" onclick="loginCheck()" value="login">
+        <input type="button" onclick="regpage()" value="Register">
 
         
     </form>
 
-    <script src="fireauth.js" type="text/Javascript"></script>
+    <script src="auth.js" type="text/Javascript"></script>
     
 </body>
 </html>

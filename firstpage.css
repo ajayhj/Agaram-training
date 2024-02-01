@@ -1,0 +1,39 @@
+.backgroundhmge{
+    background-image: url("../images/retailapp.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+
+
+}
+.quotes{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+.quote{
+    font-size: 60px;
+}
+
+.buttonone{
+    position: absolute;
+    left: 86.8%;
+    bottom: 92%;
+}
+.buttonsecond{
+    position: absolute;
+    left: 93%;
+    bottom: 92%;
+}
+.buttonthird{
+    position: absolute;
+    left: 35%;
+    top: 120%;
+}
+.letter{
+    position: absolute;
+    left: 23%;
+    top: 100%;
+}
